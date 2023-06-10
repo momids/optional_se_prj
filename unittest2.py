@@ -1,7 +1,6 @@
 import unittest
 from newmain import factorial
 
-
 class TestFactorial(unittest.TestCase):
     def test_factorial_0(self):
         self.assertEqual(factorial(0), 1)
