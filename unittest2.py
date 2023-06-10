@@ -16,5 +16,5 @@ class TestFactorial(unittest.TestCase):
         self.assertEqual(factorial(10), 3628800)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()
